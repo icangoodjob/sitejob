@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resume</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="stylesheetha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header__items__wrapper">
+				<a href="index.html">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+				</a>
+			  	<select name="sources" id="sources" class="header-select sources" placeholder="Соискателю">
+					<option value="profile">Соискателю</option>
+					<option value="word">Работодателю</option>
+			  	</select>
+			  	<ul class="menu">
+			  		<li><a href="reviews.html" class="menu__link regular__15">Отзывы сотрудников</a></li>
+			  		<li><a href="vacancy.html" class="menu__link regular__15">Вакансии</a></li>
+			  		<li><a href="resume.html" class="menu__link regular__15">Резюме</a></li>
+			  		<li><a href="forum.html" class="menu__link regular__15">Форум</a></li>
+			  		<li><a href="news.html" class="menu__link regular__15">Новости</a></li>
+			  		<li><a href="about__project.html" class="menu__link regular__15">О нас</a></li>
+			  	</ul>
+			  	<div class="header__btn__section">
+				  	<button class="header__search__btn">&nbsp;</button>
+				  	<button class="login__btn regular__14">Авторизация</button>
+				</div>  	
+			</div>
+		</div>
+	</div>
+	<div class="resume">
+		<div class="container">
+			<form class="resume__form">
+				<div class="search__wrap">
+					<input type="text" name="" class="search" placeholder="Профессия, должность">
+					<button class="search__btn bold__18">Найти</button>	
+				</div>
+				<section class="resume__form__section">
+					<div class="resume__download__wrapper">
+						<h3>Ваше резюме</h3>
+						<div class="download__link__wrapper">
+							<a href="#" class="resume__download__link semibold__20">Загрузить файлы</a>
+						</div>
+					</div>
+					<div class="social__box">
+						<h4>Поделиться в соц. сетях</h4>
+						<div class="social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+							</ul>
+						</div>
+						<div class="social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>								
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-viber"></i></a></li>
+								<li><a href="#"><i class="fab fa-yandex"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+				</section>
+				<div class="resume__contacts">
+					<div class="resume__contacts__info">
+						<h4>Контактные данные</h4>
+						<div class="resume__contacts__item">
+							<span class="regular__20">Имя</span>
+							<input type="text" name="name">
+						</div>
+						<div class="resume__contacts__item">
+							<span class="regular__20">Фамилия</span>
+							<input type="text" name="sure__name">
+						</div>
+						<div class="resume__contacts__item">
+							<span class="regular__20">Мобильный телефон</span>
+							<input type="tel" name="phone">
+						</div>
+						<div class="resume__contacts__item">
+							<span class="regular__20">Город проживания</span>
+							<input type="text" name="city">
+						</div>
+					</div>
+					<a href="#">
+						<div class="resume__contacts__advertising">
+							<p>РЕКЛАМА</p>
+						</div>
+					</a>	
+				</div>
+				<div class="resume__main__info">
+					<h4>Основная информация</h4>
+					<div class="resume__birth__date">
+						<span class="regular__20">Дата рождения</span>
+						<div class="resume__birth__inputs">
+							<input type="text" name="">
+							<select>
+								<option>Январь</option>
+								<option>Февраль</option>
+								<option>Март</option>
+								<option>Апрель</option>
+								<option>Май</option>
+								<option>Июнь</option>
+								<option>Июль</option>
+								<option>Август</option>
+								<option>Сентябрь</option>
+								<option>Октябрь</option>
+								<option>Ноябрь</option>
+								<option>Декабрь</option>
+							</select>
+							<input type="text" name="">
+						</div>
+					</div>
+					<div class="resume__sex">
+						<span class="regular__20">Пол</span>
+						<div class="resume__sex__radio">
+							<div class="btn__radio">
+								<input id="man" name="radio" type="radio" checked>
+								<label for="man" class="radio-label">Мужской</label>
+							</div>	
+							<div class="btn__radio">
+								<input id="woman" name="radio" type="radio">
+								<label for="woman" class="radio-label">Женский</label>
+							</div>	
+						</div>
+					</div>
+					<div class="resume__citizenship">
+						<span class="regular__20">Гражданство</span>
+						<div class="citizenship__select__wrap">
+							<select>
+								<option>Российская федерация</option>
+								<option>Украина</option>
+								<option>Беларусь</option>
+								<option>Казахстан</option>
+							</select>
+						</div>	
+					</div>
+					<div class="resume__work__expirience">
+						<span class="regular__20">Опыт работы</span>
+						<div class="work__experience__radio">
+							<div class="btn__radio">
+									<input id="exp" name="radio" type="radio">
+									<label for="exp" class="radio-label">Есть опыт работы</label>
+								</div>	
+							<div class="btn__radio">
+								<input id="no-exp" name="radio" type="radio">
+								<label for="no-exp" class="radio-label">Нет опыта работы</label>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="resume__specialty">
+					<h4>Специальность</h4>
+					<div class="resume__desired__position">
+						<span class="regular__20">Желаемая должность</span>
+						<input type="text" name="">
+					</div>
+					<div class="resume__salary">
+						<span class="regular__20">Зарплата</span>
+						<input type="text" name="">
+						<div class="salary__select__wrapper">
+							<select>
+								<option>Руб</option>
+								<option>Грн</option>
+								<option>Евро</option>
+							</select>
+						</div>	
+					</div>
+					<div class="resume__professional__area">
+						<span class="regular__20">Профессиональная <br> область</span>
+						<select>
+							<option>Сварщик</option>
+							<option>Слесарь</option>
+							<option>Прочее</option>
+						</select>
+					</div>
+					<a href="#">
+						<div class="resume__specialty__advertising">
+							<p>РЕКЛАМА</p>
+						</div>
+					</a>	
+				</div>
+				<div class="resume__work__experience__choice">
+					<h4>Опыт работы</h4>
+					<div class="resume__work__places">
+						<span class="regular__20">Места работы</span>
+						<button class="work__add__btn regular__20 blue">Добавить место работы</button>
+					</div>
+					<div class="resume__textarea">
+						<span class="regular__20">О себе</span>
+						<textarea></textarea>
+					</div>
+				</div>
+				<div class="resume__education">
+					<h4>Образование</h4>
+					<div class="education__lvl">
+						<span class="regular__20">Уровень</span>
+						<select>
+							<option>Среднее</option>
+							<option>Высшее</option>
+						</select>
+					</div>
+				</div>
+				<div class="resume__languages">
+					<h4>Владение языками</h4>
+					<div class="resume__my__languages">
+						<span class="regular__20">Родной язык</span>
+						<select>
+							<option>Русский</option>
+							<option>Украинский</option>
+							<option>Прочее</option>
+						</select>
+					</div>
+					<div class="foreign__languages">
+						<span class="regular__20">Иностранные языки</span>
+						<a class="choice__language__btn semibold__20 blue">Указать еще один язык</a>
+					</div>
+				</div>
+				<button class="save__form__btn semibold__20">Сохранить и опубликовать</button>	
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<ul class="footer__menu">
+				<li><a href="reviews.html" class="footer__menu__link semibold__20">Отзывы сотрудников</a></li>
+		  		<li><a href="vacancy.html" class="footer__menu__link semibold__20">Вакансии</a></li>
+		  		<li><a href="resume.html" class="footer__menu__link semibold__20">Резюме</a></li>
+		  		<li><a href="forum.html" class="footer__menu__link semibold__20">Форум</a></li>
+		  		<li><a href="news.html" class="footer__menu__link semibold__20">Новости</a></li>
+		  		<li><a href="about.html" class="footer__menu__link semibold__20">О нас</a></li>
+			</ul>
+			<div class="footer__items__wrapper">
+				<div class="footer__item">
+					<a href="index.html">
+						<div class="logo">
+							<img src="img/logo.png">
+						</div>
+					</a>
+					<div class="footer__social__wrapper">
+						<div class="footer__social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></i></a></li>
+							</ul>
+						</div>
+						<div class="footer__social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-viber"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href="#"><i class="fab fa-yandex"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="footer__item">
+					<ul class="footer__menu__column">
+						<li><a href="help.html" class="bold__20">Помощь</a></li>
+						<li><a href="rules.html" class="regular__20">Правила сервиса</a></li>
+						<li><a href="support.html" class="regular__20">Служба поддержки</a></li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<ul class="footer__menu__column">
+						<li><a href="about" class="bold__20">Об УДАЛЕНКА.TODAY</a></li>
+						<li><a href="about__project" class="regular__20">О проекте</a></li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<ul class="footer__menu__column">
+						<li><a href="#" class="bold__20">Полезное</a></li>
+						<li><a href="for__applicant.html" class="regular__20">Соискателю</a></li>
+						<li><a href="for__employer.html" class="regular__20">Работодателю</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-overlay">
+	  	<div class="modal">
+	  		<a class="close-modal">
+	  			<svg viewBox="0 0 20 20">
+	  				<path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+	  			</svg>
+	  		</a>
+	  		<div class="modal-content">
+	  			<div class="tabs">
+					<ul class="tabs__caption">
+						<li class="active">Вход</li>
+						<li>Регистарция</li>
+					</ul>
+					<div class="tabs__content active">
+						<form class="login__form">
+							<span class="regular__20">Логин или Email</span>
+							<div>
+								<input type="email" name="">
+							</div>
+							<span class="regular__20">Пароль</span>
+							<div>
+								<input type="password" name="">
+							</div>
+							<div class="login__btn__center">
+								<button class="login__btn regular__30">Вход</button>
+							</div>	
+						</form>	
+					</div>
+					<div class="tabs__content">
+						<form class="registration__form">
+							<span class="regular__20">Логин</span>
+							<div>
+								<input type="text" name="">
+							</div>
+							<span class="regular__20">Email</span>
+							<div>
+								<input type="email" name="">
+							</div>
+							<span class="regular__20">Пароль</span>
+							<div>
+								<input type="password" name="">
+							</div>
+							<div class="registration__btn__center">
+								<button class="registration__btn regular__30">Регистрация</button>
+							</div>	
+						</form>
+					</div>
+				</div>
+			</div>
+  		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/script.js"></script>	
+</body>
+</html>

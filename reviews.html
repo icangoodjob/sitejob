@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reviews</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="stylesheetha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header__items__wrapper">
+				<a href="index.html">
+					<div class="logo">
+						<img src="img/logo.png">
+					</div>
+				</a>
+			  	<select name="sources" id="sources" class="header-select sources" placeholder="Соискателю">
+					<option value="profile">Соискателю</option>
+					<option value="word">Работодателю</option>
+			  	</select>
+			  	<ul class="menu">
+			  		<li><a href="reviews.html" class="menu__link regular__15">Отзывы сотрудников</a></li>
+			  		<li><a href="vacancy.html" class="menu__link regular__15">Вакансии</a></li>
+			  		<li><a href="resume.html" class="menu__link regular__15">Резюме</a></li>
+			  		<li><a href="forum.html" class="menu__link regular__15">Форум</a></li>
+			  		<li><a href="news.html" class="menu__link regular__15">Новости</a></li>
+			  		<li><a href="about__project.html" class="menu__link regular__15">О нас</a></li>
+			  	</ul>
+			  	<div class="header__btn__section">
+				  	<button class="header__search__btn">&nbsp;</button>
+				  	<button class="login__btn regular__14">Авторизация</button>
+				</div>  	
+			</div>
+		</div>
+	</div>
+	<div class="reviews">
+		<div class="container">
+			<div class="reviews__wrapper">
+				<a href="#">	
+					<div class="reviews__advertising">
+						<p>Реклама</p>
+					</div>
+				</a>
+				<div class="search__wrap">
+					<input type="text" name="" class="search" placeholder="Профессия, должность">
+					<button class="search__btn bold__18">Найти</button>	
+				</div>
+				<div class="reviews__title">
+					<div class="reviews__title__text">
+						<h3>Отзывы о работодателях</h3>
+						<p class="light__18">Данный раздел является отправной точкой при поиске отзывов о <br> работодателях. В нём представлена форма поиска, в которой есть <br> возможность выбрать страну, а также указать полное название <br> компании либо его часть. Также здесь располагаются рубрики со <br> списками выдающихся работодателей, а именно топ 10 работодателей <br> которые набрали наибольшее количество отзывов либо были <br> просмотрены великое множество раз.</p>
+					</div>
+					<div class="social__box">
+						<h4>Поделиться в соц. сетях</h4>
+						<div class="social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+							</ul>
+						</div>
+						<div class="social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>								
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-viber"></i></a></li>
+								<li><a href="#"><i class="fab fa-yandex"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<form class="reviews__form">
+					<p class="regular__18">Введите название компании и выберите страну.</p>
+					<div class="reviews__form__country">
+						<span class="regular__18">Страна</span>
+						<select>
+							<option>Россия</option>
+							<option>Украина</option>
+							<option>Прочее</option>
+						</select>
+						<input type="text" name="" placeholder="Название компании">
+						<button class="review__form__btn semibold__20">Найти</button>
+					</div>
+					<div class="review__radio__section">
+						<span>Поиск по</span>
+						<div class="btn__radio">
+							<input id="name" name="radio" type="radio" checked>
+							<label for="name" class="radio-label">Названию</label>
+						</div>
+						<div class="btn__radio">
+							<input id="tel" name="radio" type="radio">
+							<label for="tel" class="radio-label">Телефону</label>
+						</div>
+						<div class="btn__radio">
+							<input id="site" name="radio" type="radio">
+							<label for="site" class="radio-label">Сайту</label>
+						</div>
+						<div class="btn__radio">
+							<input id="address" name="radio" type="radio">
+							<label for="address" class="radio-label">Адресу</label>
+						</div>
+					</div>
+				</form>
+				<div class="reviews__items__wrapper">
+					<div class="reviews__item">
+						<a href="subreviews.html" class="reviews__link light__20">pleer.ru</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">123 исполнителя</a>
+							<span href="#" class="semibold__15">145569 просмотров</span>
+							<a href="subreviews.html" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">Магнит</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">123 исполнителя</a>
+							<span href="#" class="semibold__15">56995 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">Вафель</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">56992 исполнителя</a>
+							<span href="#" class="semibold__15">266500 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">SL-COMPANY</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">1231 исполнителя</a>
+							<span href="#" class="semibold__15">14529 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">Магнит</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">123 исполнителя</a>
+							<span href="#" class="semibold__15">145569 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">Russia</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">65 исполнителя</a>
+							<span href="#" class="semibold__15">11696 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">Cola</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">301 исполнителя</a>
+							<span href="#" class="semibold__15">4566 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">QIWI</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">887 исполнителя</a>
+							<span href="#" class="semibold__15">1569 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">Rusel</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">12556 исполнителя</a>
+							<span href="#" class="semibold__15">95488 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<a href="#" class="reviews__link light__20">ЛКЛО</a>
+						<div class="reviews__item__right">
+							<a href="#" class="reviews__link semibold__15">8746 исполнителя</a>
+							<span href="#" class="semibold__15">25698 просмотров</span>
+							<a href="#" class="reviews__btn bold__20">Отзывы</a>
+						</div>
+					</div>
+				</div>
+				<div class="watch__more">
+					<a href="#" class="watch__more__btn">Смотреть ещё</a>
+				</div>	
+			</div>
+		</div>		
+	</div>	
+	<div class="footer">
+		<div class="container">
+			<ul class="footer__menu">
+				<li><a href="reviews.html" class="footer__menu__link semibold__20">Отзывы сотрудников</a></li>
+		  		<li><a href="vacancy.html" class="footer__menu__link semibold__20">Вакансии</a></li>
+		  		<li><a href="resume.html" class="footer__menu__link semibold__20">Резюме</a></li>
+		  		<li><a href="forum.html" class="footer__menu__link semibold__20">Форум</a></li>
+		  		<li><a href="news.html" class="footer__menu__link semibold__20">Новости</a></li>
+		  		<li><a href="about.html" class="footer__menu__link semibold__20">О нас</a></li>
+			</ul>
+			<div class="footer__items__wrapper">
+				<div class="footer__item">
+					<a href="index.html">
+						<div class="logo">
+							<img src="img/logo.png">
+						</div>
+					</a>
+					<div class="footer__social__wrapper">
+						<div class="footer__social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-vk"></i></a></li>
+								<li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></i></a></li>
+							</ul>
+						</div>
+						<div class="footer__social__row">
+							<ul>
+								<li><a href="#"><i class="fab fa-viber"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href="#"><i class="fab fa-yandex"></i></a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="footer__item">
+					<ul class="footer__menu__column">
+						<li><a href="help.html" class="bold__20">Помощь</a></li>
+						<li><a href="rules.html" class="regular__20">Правила сервиса</a></li>
+						<li><a href="support.html" class="regular__20">Служба поддержки</a></li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<ul class="footer__menu__column">
+						<li><a href="about" class="bold__20">Об УДАЛЕНКА.TODAY</a></li>
+						<li><a href="about__project" class="regular__20">О проекте</a></li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<ul class="footer__menu__column">
+						<li><a href="#" class="bold__20">Полезное</a></li>
+						<li><a href="for__applicant.html" class="regular__20">Соискателю</a></li>
+						<li><a href="for__employer.html" class="regular__20">Работодателю</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-overlay">
+	  	<div class="modal">
+	  		<a class="close-modal">
+	  			<svg viewBox="0 0 20 20">
+	  				<path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+	  			</svg>
+	  		</a>
+	  		<div class="modal-content">
+	  			<div class="tabs">
+					<ul class="tabs__caption">
+						<li class="active">Вход</li>
+						<li>Регистарция</li>
+					</ul>
+					<div class="tabs__content active">
+						<form class="login__form">
+							<span class="regular__20">Логин или Email</span>
+							<div>
+								<input type="email" name="">
+							</div>
+							<span class="regular__20">Пароль</span>
+							<div>
+								<input type="password" name="">
+							</div>
+							<div class="login__btn__center">
+								<button class="login__btn regular__30">Вход</button>
+							</div>	
+						</form>	
+					</div>
+					<div class="tabs__content">
+						<form class="registration__form">
+							<span class="regular__20">Логин</span>
+							<div>
+								<input type="text" name="">
+							</div>
+							<span class="regular__20">Email</span>
+							<div>
+								<input type="email" name="">
+							</div>
+							<span class="regular__20">Пароль</span>
+							<div>
+								<input type="password" name="">
+							</div>
+							<div class="registration__btn__center">
+								<button class="registration__btn regular__30">Регистрация</button>
+							</div>	
+						</form>
+					</div>
+				</div>
+			</div>
+  		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
